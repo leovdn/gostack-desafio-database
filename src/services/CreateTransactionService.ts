@@ -12,12 +12,6 @@ interface Request {
   category: string;
 }
 
-interface Balance {
-  income: number;
-  outcome: number;
-  total: number;
-}
-
 class CreateTransactionService {
   public async execute({
     title,
